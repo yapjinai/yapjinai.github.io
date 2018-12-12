@@ -1,0 +1,16 @@
+$blue: #2a4afa;
+
+body {
+  background: #fadaea;
+
+  color: $blue;
+  font: {
+    size: xx-large;
+    family: monospace;
+    weight: bold;
+  }
+
+  div {
+    border-radius: 100%;
+  }
+}

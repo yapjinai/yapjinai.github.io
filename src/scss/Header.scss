@@ -1,0 +1,16 @@
+$blue: #2a4afa;
+
+.Header {
+  .NavLink {
+    width: 100px;
+    padding: 12px;
+    margin: 0 6px 6px;
+    background: $blue;
+    text-decoration: none;
+    color: white;
+  }
+  .ActiveNavLink {
+    background: white;
+    color: $blue;
+  }
+}

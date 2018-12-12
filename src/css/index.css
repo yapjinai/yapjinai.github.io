@@ -1,0 +1,12 @@
+body {
+  background: #fadaea;
+  color: #2a4afa;
+  font-size: xx-large;
+  font-family: monospace;
+  font-weight: bold;
+}
+body div {
+  border-radius: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */
