@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 // import '../css/ErrorPage.css';
 
-import Header from './Header';
-
 class ErrorPage extends Component {
   render() {
     return (
