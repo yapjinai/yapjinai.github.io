@@ -1,0 +1,24 @@
+.Nav {
+  position: absolute;
+  z-index: 0;
+  top: 12px;
+  right: 0;
+}
+.Nav .NavLink {
+  width: 100px;
+  padding: 12px;
+  margin: 0 6px 6px;
+  background: #2a4afa;
+  text-decoration: none;
+  color: white;
+}
+.Nav .NavLink:hover {
+  background: pink;
+  color: white;
+}
+.Nav .ActiveNavLink {
+  background: white;
+  color: #2a4afa;
+}
+
+/*# sourceMappingURL=Nav.css.map */

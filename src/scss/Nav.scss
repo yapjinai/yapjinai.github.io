@@ -1,0 +1,27 @@
+$blue: #2a4afa;
+
+.Nav {
+  position: absolute;
+  z-index: 0;
+
+  top: 12px;
+  right: 0;
+
+  .NavLink {
+    width: 100px;
+    padding: 12px;
+    margin: 0 6px 6px;
+    background: $blue;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      background: pink;
+      color: white;
+    }
+  }
+  .ActiveNavLink {
+    background: white;
+    color: $blue;
+  }
+}

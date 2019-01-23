@@ -1,0 +1,46 @@
+.Splash {
+  position: absolute;
+  z-index: 1;
+
+  width: 100vw;
+  height: 100vh;
+
+  top: 0;
+  left: 0;
+
+  #bg {
+    position: absolute;
+    z-index: -1;
+
+    width: 100vw;
+  }
+
+
+
+
+
+  &.hide {
+    opacity: 0;
+    z-index: -5;
+    // visibility: hidden;
+    // display: none;
+    // #bg {
+    //   // width: 50vw;
+    // }
+
+  }
+  transition: opacity 200ms;
+  // transition: visibility 200ms opacity 400ms linear;
+
+
+
+
+
+
+  /////////// Temporary
+
+  // text-align: right;
+  // background: rgba(225,0,0,0.25);
+
+  // background: url('../img/splash/bg.png');
+}
