@@ -6,7 +6,7 @@ class ErrorPage extends Component {
     return (
       <div className="page ErrorPage">
         <h1>😬</h1>
-        this page does not exist!
+        That page does not exist!
       </div>
     );
   }
