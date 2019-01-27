@@ -28,8 +28,8 @@ class Nav extends Component {
     const pages = [
       'About',
       'Web',
-      'Music',
       'Visual',
+      'Music',
     ]
     return pages.map(page => {
       return (
@@ -45,11 +45,6 @@ class Nav extends Component {
         </NavLink>
       )
     })
-  }
-
-  renderNavlink = (page) => {
-
-
   }
 }
 

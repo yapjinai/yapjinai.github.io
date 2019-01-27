@@ -14,14 +14,20 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="Home">
-        <img
-          id='bg'
-          src={bg}
-          alt='bg'
-        />
-        {this.renderLinks()}
-      </div>
+      <>
+        <div className="Home">
+          <img
+            id='bg'
+            src={bg}
+            alt='bg'
+          />
+          {this.renderLinks()}
+        </div>
+        <div className="Home-mobile">
+          <span className='title'>jin ai yap</span>
+          {this.renderMobileLinks()}
+        </div>
+      </>
     );
   }
 
@@ -29,6 +35,11 @@ class Home extends Component {
 
   renderLinks = () => {
     const links = [
+      {
+        name: 'dog',
+        image: dog,
+        page: 'web'
+      },
       {
         name: 'man',
         image: man,
@@ -39,15 +50,39 @@ class Home extends Component {
         image: woman,
         page: 'music'
       },
-      {
-        name: 'dog',
-        image: dog,
-        page: 'web'
-      },
     ]
 
     return links.map(link => {
       return <Link link={link} key={link.name} />
+    })
+  }
+
+  renderMobileLinks = () => {
+    const links = [
+      {
+        name: 'dog-mobile',
+        image: dog,
+        page: 'web'
+      },
+      {
+        name: 'man-mobile',
+        image: man,
+        page: 'visual'
+      },
+      {
+        name: 'woman-mobile',
+        image: woman,
+        page: 'music'
+      },
+    ]
+
+    return links.map(link => {
+      return (
+        <a href={link.page} key={link.name} title={link.name}>
+          {link.page}<br />
+          <img src={link.image} alt={link.name} />
+        </a>
+      )
     })
   }
 }
