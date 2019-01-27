@@ -4,15 +4,28 @@
 }
 .Visual .PhotoSets .PhotoSet {
   text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.Visual .PhotoSets .PhotoSet#RobotCafe {
-  background: blue;
+.Visual .PhotoSets .PhotoSet .Photos {
+  display: grid;
 }
-.Visual .PhotoSets .PhotoSet#Agoraphobia {
-  background: green;
+.Visual .PhotoSets .PhotoSet .Photos .Photo {
+  margin: 10vh auto;
 }
-.Visual .PhotoSets .PhotoSet#Barb {
-  background: red;
+.Visual .PhotoSets .PhotoSet .Photos .Photo img {
+  max-width: 80vw;
+  max-height: 80vh;
+}
+.Visual .PhotoSets .PhotoSet#robot {
+  background-image: url("https://s3.amazonaws.com/yapjinai/visual/photography/robot/bg.png");
+}
+.Visual .PhotoSets .PhotoSet#agoraphobia {
+  background-image: url("https://s3.amazonaws.com/yapjinai/visual/photography/agoraphobia/bg.png");
+}
+.Visual .PhotoSets .PhotoSet#barb {
+  background-image: url("https://s3.amazonaws.com/yapjinai/visual/photography/barb/bg.jpg");
 }
 
 /*# sourceMappingURL=Visual.css.map */

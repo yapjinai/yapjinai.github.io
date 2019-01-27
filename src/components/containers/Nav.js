@@ -13,6 +13,7 @@ class Nav extends Component {
 
           className="NavLink"
           activeClassName="ActiveNavLink"
+          id='home'
         >
           Home
         </NavLink>

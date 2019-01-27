@@ -1,3 +1,6 @@
+$robot-bg: 'https://s3.amazonaws.com/yapjinai/visual/photography/robot/bg.png';
+$agoraphobia-bg: 'https://s3.amazonaws.com/yapjinai/visual/photography/agoraphobia/bg.png';
+$barb-bg: 'https://s3.amazonaws.com/yapjinai/visual/photography/barb/bg.jpg';
 .Visual {
   .PhotoSets {
     display: flex;
@@ -6,17 +9,38 @@
 
     .PhotoSet {
       text-align: center;
-
-      &#RobotCafe {
-        background: blue;
+      color: white;
+    	background: {
+        repeat: no-repeat;
+        size: cover;
       }
 
-      &#Agoraphobia {
-        background: green;
+      .Photos {
+        display: grid;
+
+        .Photo {
+        	// display: block;
+        	margin: 10vh auto;
+
+          img {
+            // width: 100%;
+            // height: 100%;
+            	max-width: 80vw;
+            	max-height: 80vh;
+          }
+        }
       }
 
-      &#Barb {
-        background: red;
+      &#robot {
+        background-image: url($robot-bg);
+      }
+
+      &#agoraphobia {
+        background-image: url($agoraphobia-bg);
+      }
+
+      &#barb {
+        background-image: url($barb-bg);
       }
     }
   }

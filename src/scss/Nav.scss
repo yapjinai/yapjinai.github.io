@@ -1,14 +1,17 @@
 $blue: #2a4afa;
 
 .Nav {
-  position: absolute;
-  z-index: 0;
+  position: fixed;
+  z-index: 2;
 
   top: 12px;
-  right: 0;
+  // right: 0;
+  width: 100%;
+
+  text-align: right;
 
   .NavLink {
-    width: 100px;
+    // width: 100px;
     padding: 12px;
     margin: 0 6px 6px;
     background: $blue;
@@ -18,6 +21,10 @@ $blue: #2a4afa;
     &:hover {
       background: pink;
       color: white;
+    }
+
+    &#home {
+      text-align: left; // MAKE THIS SEPARATE - USE FLEX?
     }
   }
   .ActiveNavLink {

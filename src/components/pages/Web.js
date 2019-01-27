@@ -25,20 +25,20 @@ class Web extends Component {
         name: 'djin',
         link: 'http://yapjinai.com/djin',
         demo: '',
-        screenshot: 'https://s3.amazonaws.com/yapjinai/djin-screenshot.png',
+        screenshot: 'https://s3.amazonaws.com/yapjinai/web/djin-screenshot.png',
         description: 'A React/Rails app for mixing beats and songs on the fly'
       },
       {
         name: 'shrinelords',
         link: 'https://shrinelords.herokuapp.com',
-        demo: 'https://s3.amazonaws.com/yapjinai/shrinelords-demo.mov',
+        demo: 'https://s3.amazonaws.com/yapjinai/web/shrinelords-demo.mov',
         screenshot: '',
         description: 'The spiritual and digital merge in this technopagan haven: build and meditate in virtual shrines set in simulated nature.'
       },
       {
         name: 'forevernote',
         link: 'http://windows-xp.herokuapp.com',
-        demo: 'https://s3.amazonaws.com/yapjinai/forevernote-demo.mov',
+        demo: 'https://s3.amazonaws.com/yapjinai/web/forevernote-demo.mov',
         screenshot: '',
         description: 'Publicly share text documents on a Windows XP-style Notepad clone built in Rails and React'
       }
