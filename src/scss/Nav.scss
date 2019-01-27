@@ -17,6 +17,7 @@ $blue: #2a4afa;
     background: $blue;
     text-decoration: none;
     color: white;
+    font-size: xx-large;
 
     &:hover {
       background: pink;
@@ -30,5 +31,28 @@ $blue: #2a4afa;
   .ActiveNavLink {
     background: white;
     color: $blue;
+  }
+}
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 768px) {
+
+  .Nav {
+    top: 6px;
+    text-align: center;
+
+    .NavLink {
+      padding: 6px;
+      margin: 0 3px 3px;
+      font-size: x-large;
+
+      &:hover {
+      }
+
+      &#home { // MAKE THIS SEPARATE - USE FLEX?
+      }
+    }
+    .ActiveNavLink {
+    }
   }
 }

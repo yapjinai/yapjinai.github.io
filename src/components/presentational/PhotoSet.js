@@ -10,6 +10,7 @@ class PhotoSet extends Component {
       id={project.id}
       >
         <h2>{project.title}</h2>
+        <p><a href='#Nav' title='back'>back</a></p>
 
         <div className='Photos'>
           {this.renderPhotos(project)}

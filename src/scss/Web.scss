@@ -1,4 +1,4 @@
-$content-width: 60vw;
+$content-width: 100%;
 $content-height: 0.625 * $content-width;
 
 .Web {
@@ -30,7 +30,26 @@ $content-height: 0.625 * $content-width;
       .demo {
         width: $content-width;
         height: $content-height;
-        background: rgba(0,0,0,0.2)
+        background: rgba(0,0,0,0.2);
+      }
+    }
+  }
+}
+/*RESPONSIVE*/
+@media only screen and (max-width: 768px) {
+  .Web {
+    .WebProjects {
+      .WebProject {
+        h2 {
+          .link {
+            top: 6px;
+            width: 20px;
+          }
+          &:hover img {
+          }
+        }
+        .demo {
+        }
       }
     }
   }

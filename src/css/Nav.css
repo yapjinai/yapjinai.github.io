@@ -11,6 +11,7 @@
   background: #2a4afa;
   text-decoration: none;
   color: white;
+  font-size: xx-large;
 }
 .Nav .NavLink:hover {
   background: pink;
@@ -22,6 +23,19 @@
 .Nav .ActiveNavLink {
   background: white;
   color: #2a4afa;
+}
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 768px) {
+  .Nav {
+    top: 6px;
+    text-align: center;
+  }
+  .Nav .NavLink {
+    padding: 6px;
+    margin: 0 3px 3px;
+    font-size: x-large;
+  }
 }
 
 /*# sourceMappingURL=Nav.css.map */

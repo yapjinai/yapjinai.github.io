@@ -3,6 +3,8 @@ $blue-transparent: rgba(42,74,250,0.5);
 $pink: #fadaea;
 $content-width: 60vw;
 
+$content-width-mobile: 80vw;
+
 body {
   background: #fadaea;
   margin: 0;
@@ -36,4 +38,34 @@ body {
     width: $content-width;
     margin: auto;
   }
+}
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 768px) {
+  .App {
+    // margin-top: 100px;
+    //
+    // color: $blue;
+    // text-align: justify;
+    font: {
+      size: large;
+    //   family: monospace;
+    //   weight: bold;
+    }
+    a {
+      // color: inherit;
+      // text-decoration-style: wavy;
+      &:hover {
+        // opacity: 0.5;
+        // color: $blue-transparent;
+      }
+    }
+    h1 {
+      // text-align: center;
+    }
+    div.page {
+      width: $content-width-mobile;
+    }
+  }
+
 }

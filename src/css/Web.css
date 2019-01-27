@@ -20,9 +20,17 @@
   opacity: 0.5;
 }
 .Web .WebProjects .WebProject .demo {
-  width: 60vw;
-  height: 37.5vw;
+  width: 100%;
+  height: 62.5%;
   background: rgba(0, 0, 0, 0.2);
+}
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 768px) {
+  .Web .WebProjects .WebProject h2 .link {
+    top: 6px;
+    width: 20px;
+  }
 }
 
 /*# sourceMappingURL=Web.css.map */

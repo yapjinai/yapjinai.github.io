@@ -28,4 +28,14 @@ body {
   margin: auto;
 }
 
+/*RESPONSIVE*/
+@media only screen and (max-width: 768px) {
+  .App {
+    font-size: large;
+  }
+  .App div.page {
+    width: 80vw;
+  }
+}
+
 /*# sourceMappingURL=App.css.map */

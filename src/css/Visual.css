@@ -1,3 +1,34 @@
+.Visual .Menu {
+  background: rgba(42, 74, 250, 0.5);
+  padding: 5vh 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Visual .Menu .MenuItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20vw;
+  height: 35.4vw;
+  background-size: cover;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+  font-family: georgia;
+  font-style: italic;
+  text-transform: uppercase;
+  word-break: break-word;
+  hyphens: auto;
+}
+.Visual .Menu .MenuItem.robot {
+  background-image: url("https://s3.amazonaws.com/yapjinai/visual/photography/robot/icon.jpg");
+}
+.Visual .Menu .MenuItem.agoraphobia {
+  background-image: url("https://s3.amazonaws.com/yapjinai/visual/photography/agoraphobia/icon.png");
+}
+.Visual .Menu .MenuItem.barb {
+  background-image: url("https://s3.amazonaws.com/yapjinai/visual/photography/barb/icon.jpg");
+}
 .Visual .PhotoSets {
   display: flex;
   flex-direction: column;
@@ -8,11 +39,19 @@
 }
 .Visual .PhotoSets .PhotoSet h2 {
   padding-top: 10vh;
+  text-transform: uppercase;
+}
+.Visual .PhotoSets .PhotoSet h2, .Visual .PhotoSets .PhotoSet p {
   text-align: center;
   color: white;
   font-family: georgia;
   font-style: italic;
-  text-transform: uppercase;
+}
+.Visual .PhotoSets .PhotoSet p {
+  font-size: medium;
+}
+.Visual .PhotoSets .PhotoSet p a {
+  text-decoration: none;
 }
 .Visual .PhotoSets .PhotoSet .Photos {
   display: flex;
@@ -42,13 +81,24 @@
 }
 
 /*RESPONSIVE*/
-@media only screen and (max-width: 768px) {
-  .Visual .PhotoSets .PhotoSet .Photos .Photo.row {
-    flex-direction: column;
+@media only screen and (max-width: 1024px) {
+  .Visual .Menu {
     padding: 0;
+    flex-direction: column;
+  }
+  .Visual .Menu .MenuItem {
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+  }
+  .Visual .PhotoSets .PhotoSet .Photos .Photo.row {
+    display: inline;
+    padding: 0;
+    text-align: center;
   }
   .Visual .PhotoSets .PhotoSet .Photos .Photo.row img {
     padding: 10vh 0;
+    height: auto;
   }
 }
 
