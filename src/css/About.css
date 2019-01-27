@@ -1,0 +1,11 @@
+.About .icon-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.About .icon {
+  width: 50px;
+  margin: 20px;
+}
+
+/*# sourceMappingURL=About.css.map */

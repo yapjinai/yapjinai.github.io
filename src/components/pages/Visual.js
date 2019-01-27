@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Visual extends Component {
   render() {
     return (
-      <div className="Visual">
+      <div className="page Visual">
         <h1>Visual</h1>
       </div>
     );

@@ -1,0 +1,64 @@
+.Home {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+.Home .Link {
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 4vw;
+  font-family: georgia;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.Home .Link img {
+  margin: -10%;
+  z-index: 1;
+}
+.Home .Link#man {
+  height: 16vw;
+  width: 16vw;
+  top: 62vw;
+  left: 18vw;
+}
+.Home .Link#man img {
+  width: 5vw;
+}
+.Home .Link#woman {
+  height: 17vw;
+  width: 17vw;
+  top: 68vw;
+  left: 43vw;
+}
+.Home .Link#woman img {
+  width: 5vw;
+}
+.Home .Link#dog {
+  height: 11vw;
+  width: 11vw;
+  top: 82vw;
+  left: 34vw;
+}
+.Home .Link#dog img {
+  width: 10vw;
+}
+.Home .Link:hover {
+  background: rgba(241, 151, 196, 0.5);
+}
+.Home #bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+/*# sourceMappingURL=Home.css.map */

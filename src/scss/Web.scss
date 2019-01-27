@@ -1,0 +1,20 @@
+$content-width: 60vw;
+$content-height: 0.625 * $content-width;
+
+.Web {
+  .WebProjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .WebProject {
+      width: 100%;
+
+      img, video {
+        width: $content-width;
+        height: $content-height;
+        background: rgba(0,0,0,0.2)
+      }
+    }
+  }
+}

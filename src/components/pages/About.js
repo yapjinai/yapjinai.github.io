@@ -1,28 +1,58 @@
 import React, { Component } from 'react';
-// import '../css/About.css';
+
+import mail from '../../img/about/mail.png';
+import github from '../../img/about/github.png';
+import linkedin from '../../img/about/linkedin.png';
+import soundcloud from '../../img/about/soundcloud.png';
+import medium from '../../img/about/medium.png';
+
+import '../../css/About.css';
+
+const IconContainer = () => {
+  return (
+    <div className='icon-container'>
+      <a href='mailto:jinai.jyap@gmail.com'><img src={mail} alt='mail' className='icon' /></a>
+      <a href='https://github.com/yapjinai'><img src={github} alt='github' className='icon' /></a>
+      <a href='https://www.linkedin.com/in/yapjinai'><img src={linkedin} alt='linkedin'  className='icon' /></a>
+      <a href='https://medium.com/@yapjinai'><img src={medium} alt='medium'  className='icon' /></a>
+      <a href='https://soundcloud.com/jinai'><img src={soundcloud} alt='soundcloud'  className='icon' /></a>
+    </div>
+  )
+}
+
 class About extends Component {
   render() {
     return (
-      <div className="About">
+      <div className="page About">
         <h1>About</h1>
+
         <p>
-          JUST A LIL POLYP IN A BIG POLYP WORLD. U might call me fake but I prefer "artificial."
+          My name is Jin Ai. I graduated from Yale with a degree in Art and I am a full stack web developer with experience in Ruby on Rails, React.js, and React-Redux.
         </p>
+
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce purus arcu, tincidunt a dapibus ut, tempus eu orci. Cras pharetra dapibus dolor, et vulputate odio bibendum id. Ut eu justo a quam finibus sodales. Etiam vel aliquet felis. Donec purus leo, sollicitudin vel sem vel, eleifend vulputate est. Nam aliquet libero quis diam blandit tincidunt. Nulla facilisi. Fusce nec sapien ut mauris varius ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et odio a purus mattis varius eget ac quam. Suspendisse in lacus sapien. Aliquam commodo sit amet elit at feugiat. Ut maximus odio porttitor congue pretium. Integer turpis dui, ultrices et felis vitae, commodo finibus ante.
+          When I build apps, I like to imagine how other cultures would use the internet if they had invented it.
         </p>
+
+        <h2>Technical skills:</h2>
+
         <p>
-          Nunc ac magna ut tortor venenatis dignissim ac non magna. Suspendisse ac leo ut urna molestie finibus ac sed nisl. Duis efficitur nibh lacinia eleifend volutpat. Sed auctor aliquet mauris in euismod. Aenean mattis arcu sed varius rhoncus. Vestibulum ac neque a metus mollis tempus ut a risus. Nullam eu justo egestas, iaculis purus id, pellentesque nisi. Nullam lectus leo, facilisis at ullamcorper consequat, pharetra ac velit. Vestibulum egestas est eu quam ullamcorper, quis tincidunt quam vestibulum. Aliquam sit amet purus ut libero euismod consectetur vel vel massa. Nam dui felis, tempus vel vehicula sit amet, maximus et mi. Maecenas non quam sed erat porta iaculis.
+          JavaScript, Ruby on Rails, React.js, React-Redux, HTML5, CSS, SQL, Adobe Creative Cloud
         </p>
+
+        <h2>I also like:</h2>
+
         <p>
-          Fusce magna sem, accumsan vitae convallis ut, facilisis ac leo. Integer ut aliquet neque. Phasellus pretium tellus vel nisi aliquam, at vehicula metus aliquet. Duis felis libero, varius quis quam non, interdum vehicula odio. Donec enim tortor, tincidunt at lorem vulputate, auctor rhoncus massa. Cras ac felis in nisi laoreet posuere. Pellentesque eu quam fermentum erat rutrum congue ut ac erat. Praesent sed ante orci. Nullam magna felis, ornare eget lectus at, dictum commodo dolor. Mauris venenatis fermentum ipsum, vitae finibus urna efficitur eget.
+          Climbing, computer music, and cats.
         </p>
-        <p>
-          Fusce et metus ac augue iaculis tempor a vitae diam. Aenean urna turpis, tristique et mauris eget, rhoncus venenatis dolor. Donec ullamcorper blandit diam, non lacinia lorem aliquam at. Aliquam ullamcorper risus mi, vitae accumsan velit malesuada vitae. Sed ut mattis ante. In sagittis diam nec finibus blandit. Nullam sollicitudin ultrices mauris, et hendrerit quam pharetra pretium. Curabitur facilisis sem nulla, in auctor velit imperdiet nec. Proin vitae est eu magna faucibus accumsan id eu tellus. Mauris odio sem, rhoncus eget enim tempor, molestie porta tortor. Sed quis sapien eu eros viverra convallis.
-        </p>
-        <p>
-          Suspendisse placerat arcu pretium lacus tristique cursus. Duis id nisi fermentum, congue massa eget, rhoncus orci. Duis ac lorem eros. Duis pulvinar, magna non consequat elementum, ipsum ex auctor libero, at pharetra elit metus vitae ligula. Sed ultrices nunc in lacus bibendum, a ornare augue convallis. Fusce quis elementum lorem. Ut porta, ex a congue luctus, ex elit consequat lorem, vel vehicula lorem elit eget sapien. Maecenas auctor justo urna, sit amet pretium arcu sagittis ut.
-        </p>
+
+        <h2>Find me:</h2>
+
+        <IconContainer />
+
+        <h6>
+          Icons by <a href="https://www.flaticon.com/authors/swifticons" title="Swifticons">Swifticons</a>.
+        </h6>
       </div>
     );
   }

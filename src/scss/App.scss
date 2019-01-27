@@ -1,13 +1,38 @@
+$blue: #2a4afa;
+$blue-transparent: rgba(42,74,250,0.5);
+$pink: #fadaea;
+$content-width: 60vw;
+
+body {
+  background: #fadaea;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  position: absolute;
-  // position: fixed;
-  // z-index: -1;
+  color: $blue;
+  text-align: justify;
+  font: {
+    size: xx-large;
+    family: monospace;
+    weight: bold;
+  }
+  a {
+    color: inherit;
+    text-decoration-style: wavy;
+    &:hover {
+      opacity: 0.5;
+      color: $blue-transparent;
+      // text-decoration-color:;
+    }
+  }
 
-  height: 100vh;
-  width: 100vw;
+  h1 {
+    text-align: center;
+  }
 
-  top: 0;
-  left: 0;
-
-  // background: #fadaea;
+  div.page {
+    width: $content-width;
+    margin: auto;
+  }
 }

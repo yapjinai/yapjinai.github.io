@@ -4,7 +4,8 @@ import React, { Component } from 'react';
 class ErrorPage extends Component {
   render() {
     return (
-      <div className="ErrorPage">
+      <div className="page ErrorPage">
+        <h1>😬</h1>
         this page does not exist!
       </div>
     );

@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Music extends Component {
   render() {
     return (
-      <div className="Music">
+      <div className="page Music">
         <h1>Music</h1>
       </div>
     );

@@ -1,12 +1,34 @@
-$blue: #2a4afa;
-
-body {
-  background: #fadaea;
-
-  color: $blue;
-  font: {
-    size: xx-large;
-    family: monospace;
-    weight: bold;
-  }
-}
+// $blue: #2a4afa;
+// $blue-transparent: rgba(42,74,250,0.5);
+// $pink: #fadaea;
+// $content-width: 60vw;
+//
+// body {
+//   background: #fadaea;
+//
+//   color: $blue;
+//   text-align: justify;
+//   font: {
+//     size: xx-large;
+//     family: monospace;
+//     weight: bold;
+//   }
+//   a {
+//     color: inherit;
+//     text-decoration-style: wavy;
+//     &:hover {
+//       opacity: 0.5;
+//       color: $blue-transparent;
+//       // text-decoration-color:;
+//     }
+//   }
+//
+//   h1 {
+//     text-align: center;
+//   }
+//
+//   div.page {
+//     width: $content-width;
+//     margin: auto;
+//   }
+// }

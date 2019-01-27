@@ -5,13 +5,6 @@ import '../../css/Nav.css';
 class Nav extends Component {
 
   render() {
-    const pages = [
-      'About',
-      'Music',
-      'Visual',
-      'Web'
-    ]
-
     return (
       <div className="Nav">
         <NavLink
@@ -23,28 +16,48 @@ class Nav extends Component {
         >
           Home
         </NavLink>
-        {pages.map(this.renderNavlink)}
+        {this.renderNavLinks()}
       </div>
     );
   }
 
   ///////////////
 
+  renderNavLinks = () => {
+    const pages = [
+      'About',
+      'Web',
+      'Music',
+      'Visual',
+    ]
+    return pages.map(page => {
+      return (
+        <NavLink
+          to={`/${page.toLowerCase()}`}
+          exact
+
+          className="NavLink"
+          activeClassName="ActiveNavLink"
+          key={page}
+        >
+          {page}
+        </NavLink>
+      )
+    })
+  }
+
   renderNavlink = (page) => {
 
-    return (
-      <NavLink
-        to={`/${page.toLowerCase()}`}
-        exact
 
-        className="NavLink"
-        activeClassName="ActiveNavLink"
-        key={page}
-      >
-        {page}
-      </NavLink>
-    )
   }
 }
 
 export default Nav;
+
+
+
+
+
+
+
+// {pages.map(this.renderNavlink)}
