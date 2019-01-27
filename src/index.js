@@ -8,7 +8,7 @@ import './css/index.css';
 
 import App from './components/containers/App';
 
-ReactDOM.render(<Router basename={process.env.PUBLIC_URL}>< App /></Router>, document.getElementById(‘root’));
+ReactDOM.render(<Router basename={process.env.PUBLIC_URL}>< App /></Router>, document.getElementById('root'));
 //
 // ReactDOM.render(
 //   <App />,
