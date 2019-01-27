@@ -5,15 +5,24 @@
 }
 .Web .WebProjects .WebProject {
   width: 100%;
+  margin: 5%;
+}
+.Web .WebProjects .WebProject h2 {
+  display: inline;
+}
+.Web .WebProjects .WebProject h2 .link {
+  position: relative;
+  top: 13px;
+  width: 40px;
+  margin: 0 10px;
+}
+.Web .WebProjects .WebProject h2:hover img {
+  opacity: 0.5;
 }
 .Web .WebProjects .WebProject .demo {
   width: 60vw;
   height: 37.5vw;
   background: rgba(0, 0, 0, 0.2);
-}
-.Web .WebProjects .WebProject .link {
-  width: 40px;
-  margin: 0 10px;
 }
 
 /*# sourceMappingURL=Web.css.map */
