@@ -1,0 +1,23 @@
+.Visual {
+  .PhotoSets {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+
+    .PhotoSet {
+      text-align: center;
+
+      &#RobotCafe {
+        background: blue;
+      }
+
+      &#Agoraphobia {
+        background: green;
+      }
+
+      &#Barb {
+        background: red;
+      }
+    }
+  }
+}

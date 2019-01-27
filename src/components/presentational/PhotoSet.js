@@ -2,7 +2,10 @@ import React from 'react';
 
 const PhotoSet = ({project}) => {
   return (
-    <div className="PhotoSet">
+    <div
+      className="PhotoSet"
+      id={project.id}
+    >
       <h2>{project.title}</h2>
     </div>
   );

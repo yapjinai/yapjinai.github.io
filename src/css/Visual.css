@@ -1,0 +1,18 @@
+.Visual .PhotoSets {
+  display: flex;
+  flex-direction: column;
+}
+.Visual .PhotoSets .PhotoSet {
+  text-align: center;
+}
+.Visual .PhotoSets .PhotoSet#RobotCafe {
+  background: blue;
+}
+.Visual .PhotoSets .PhotoSet#Agoraphobia {
+  background: green;
+}
+.Visual .PhotoSets .PhotoSet#Barb {
+  background: red;
+}
+
+/*# sourceMappingURL=Visual.css.map */
