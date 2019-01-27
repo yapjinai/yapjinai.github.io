@@ -6,10 +6,14 @@
 .Web .WebProjects .WebProject {
   width: 100%;
 }
-.Web .WebProjects .WebProject img, .Web .WebProjects .WebProject video {
+.Web .WebProjects .WebProject .demo {
   width: 60vw;
   height: 37.5vw;
   background: rgba(0, 0, 0, 0.2);
+}
+.Web .WebProjects .WebProject .link {
+  width: 40px;
+  margin: 0 10px;
 }
 
 /*# sourceMappingURL=Web.css.map */

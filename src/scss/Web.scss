@@ -10,10 +10,15 @@ $content-height: 0.625 * $content-width;
     .WebProject {
       width: 100%;
 
-      img, video {
+      .demo {
         width: $content-width;
         height: $content-height;
         background: rgba(0,0,0,0.2)
+      }
+
+      .link {
+        width: 40px;
+        margin: 0 10px;
       }
     }
   }

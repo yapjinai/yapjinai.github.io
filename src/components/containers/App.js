@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import '../../css/App.css';
 
+import ScrollToTop from '../ScrollToTop';
 import Nav from './Nav';
 import Home from '../pages/Home';
 import About from '../pages/About';
@@ -15,22 +16,24 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Switch>
-        
-          <Route exact path="/" component={Home} />
+        <ScrollToTop>
+          <Switch>
 
-          <div className='App'>
-            <Route path="/" component={Nav} />
-            <Switch>
-              <Route exact path="/about" component={About} />
-              <Route exact path="/web" component={Web} />
-              <Route exact path="/music" component={Music} />
-              <Route exact path="/visual" component={Visual} />
-              <Route component={ErrorPage} />
-            </Switch>
-          </div>
+            <Route exact path="/" component={Home} />
 
-        </Switch>
+            <div className='App'>
+              <Route path="/" component={Nav} />
+              <Switch>
+                <Route exact path="/about" component={About} />
+                <Route exact path="/web" component={Web} />
+                <Route exact path="/music" component={Music} />
+                <Route exact path="/visual" component={Visual} />
+                <Route component={ErrorPage} />
+              </Switch>
+            </div>
+
+          </Switch>
+        </ScrollToTop>
       </Router>
     );
   }
