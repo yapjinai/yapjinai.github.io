@@ -41,4 +41,15 @@
   background-image: url("https://s3.amazonaws.com/yapjinai/visual/photography/barb/bg.jpg");
 }
 
+/*RESPONSIVE*/
+@media only screen and (max-width: 768px) {
+  .Visual .PhotoSets .PhotoSet .Photos .Photo.row {
+    flex-direction: column;
+    padding: 0;
+  }
+  .Visual .PhotoSets .PhotoSet .Photos .Photo.row img {
+    padding: 10vh 0;
+  }
+}
+
 /*# sourceMappingURL=Visual.css.map */

@@ -47,7 +47,6 @@ $barb-bg: 'https://s3.amazonaws.com/yapjinai/visual/photography/barb/bg.jpg';
             display: flex;
             // flex-direction: column; // FOR MEDIA QUERY - MOBILE
             justify-content: space-evenly;
-
           }
         }
       }
@@ -62,6 +61,37 @@ $barb-bg: 'https://s3.amazonaws.com/yapjinai/visual/photography/barb/bg.jpg';
 
       &#barb {
         background-image: url($barb-bg);
+      }
+    }
+  }
+}
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 768px) {
+  .Visual {
+    .PhotoSets {
+      .PhotoSet {
+        // h2 {
+        // }
+        .Photos {
+          .Photo {
+            // img {
+            // }
+            &.row {
+              flex-direction: column;
+              padding: 0;
+              img {
+                padding: 10vh 0;
+              }
+            }
+          }
+        }
+        // &#robot {
+        // }
+        // &#agoraphobia {
+        // }
+        // &#barb {
+        // }
       }
     }
   }
