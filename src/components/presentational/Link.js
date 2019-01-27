@@ -33,11 +33,11 @@ class Link extends Component {
     )
   }
 
-  componentDidMount() {
-    this.setState({
-      elmnt: document.querySelector(`#${this.props.link.name}`),
-    });
-  }
+  // componentDidMount() {
+  //   this.setState({
+  //     elmnt: document.querySelector(`#${this.props.link.name}`),
+  //   });
+  // }
   ///////////////////////
 
   // make draggable
