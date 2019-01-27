@@ -39,7 +39,7 @@ class Visual extends Component {
           `${photographyUrl}/robot/5a.png`,
           `${photographyUrl}/robot/5b.png`,
         ],
-        cols: 2,
+        columns: 2,
       },
       {
         id: 'agoraphobia',

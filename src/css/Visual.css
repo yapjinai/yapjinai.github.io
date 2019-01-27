@@ -3,20 +3,33 @@
   flex-direction: column;
 }
 .Visual .PhotoSets .PhotoSet {
-  text-align: center;
-  color: white;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.Visual .PhotoSets .PhotoSet h2 {
+  padding-top: 10vh;
+  text-align: center;
+  color: white;
+  font-family: georgia;
+  font-style: italic;
+  text-transform: uppercase;
+}
 .Visual .PhotoSets .PhotoSet .Photos {
-  display: grid;
+  display: flex;
+  flex-direction: column;
 }
 .Visual .PhotoSets .PhotoSet .Photos .Photo {
-  margin: 10vh auto;
+  margin: 0 auto;
+  padding: 10vh 0;
 }
 .Visual .PhotoSets .PhotoSet .Photos .Photo img {
   max-width: 80vw;
   max-height: 80vh;
+}
+.Visual .PhotoSets .PhotoSet .Photos .Photo.row {
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
 }
 .Visual .PhotoSets .PhotoSet#robot {
   background-image: url("https://s3.amazonaws.com/yapjinai/visual/photography/robot/bg.png");
