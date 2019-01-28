@@ -23,7 +23,7 @@ class Web extends Component {
     const projects = [
       {
         name: 'djin',
-        link: 'http://yapjinai.com/djin',
+        link: 'http://djin.herokuapp.com',
         demo: '',
         screenshot: 'https://s3.amazonaws.com/yapjinai/web/djin-screenshot.png',
         description: 'A React/Rails app for mixing beats and songs on the fly'
