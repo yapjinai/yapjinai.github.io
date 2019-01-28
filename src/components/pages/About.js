@@ -56,7 +56,7 @@ class About extends Component {
           <p><a href='mailto:jinai.jyap@gmail.com' title='email'>Email</a> (jinai.jyap@gmail.com)
           </p>
 
-          <p><a href='http://learn.co/yapjinai/résumé' title='résumé'>Résumé</a></p>
+          <p><a href='http://learn.co/yapjinai/resume' title='résumé'>Résumé</a></p>
 
           <IconContainer />
 
