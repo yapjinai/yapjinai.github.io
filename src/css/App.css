@@ -26,7 +26,7 @@ body {
 .App div.page {
   padding: 5vw;
   width: 60vw;
-  margin: auto;
+  margin: 0 auto 10vh;
 }
 
 /*RESPONSIVE*/
