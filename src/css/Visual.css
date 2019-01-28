@@ -1,3 +1,6 @@
+.Visual {
+  padding-top: 5vw;
+}
 .Visual .Menu {
   background: rgba(42, 74, 250, 0.3);
   padding: 5vh 0;
@@ -16,6 +19,7 @@
   text-align: center;
   font-family: georgia;
   font-style: italic;
+  font-size: xx-large;
   text-transform: uppercase;
   word-break: break-word;
   hyphens: auto;
@@ -36,6 +40,7 @@
 .Visual .PhotoSets .PhotoSet {
   background-repeat: no-repeat;
   background-size: cover;
+  background-background-attachment: fixed;
 }
 .Visual .PhotoSets .PhotoSet h2 {
   padding-top: 10vh;

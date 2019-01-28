@@ -24,6 +24,7 @@ body {
   text-align: center;
 }
 .App div.page {
+  padding: 5vw;
   width: 60vw;
   margin: auto;
 }

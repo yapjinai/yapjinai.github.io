@@ -6,6 +6,8 @@ import linkedin from '../../img/about/linkedin.png';
 import soundcloud from '../../img/about/soundcloud.png';
 import medium from '../../img/about/medium.png';
 
+import splash from '../../img/home/splash.png';
+
 import '../../css/About.css';
 
 const IconContainer = () => {
@@ -23,37 +25,42 @@ const IconContainer = () => {
 class About extends Component {
   render() {
     return (
-      <div className="page About">
-        <h1>About</h1>
+      <>
 
-        <p>
-          My name is Jin Ai. I graduated from Yale with a degree in Art and I am a full stack web developer with experience in Ruby on Rails, React.js, and React-Redux.
-        </p>
+        <div className="page About">
+        <img src={splash} alt='splash' id='splash' />
 
-        <p>
-          When I build apps, I like to imagine how other cultures would use the internet if they had invented it.
-        </p>
+          <h1>Jin Ai Yap</h1>
 
-        <h2>Technical skills:</h2>
+          <p>
+            My name is Jin Ai. I graduated from Yale with a degree in Art and I am a full stack web developer with experience in Ruby on Rails, React.js, and React-Redux.
+          </p>
 
-        <p>
-          JavaScript, Ruby on Rails, React.js, React-Redux, HTML5, CSS, Sass, SQL, Adobe Creative Cloud
-        </p>
+          <p>
+            When I build apps, I like to imagine how other cultures would use the internet if they had invented it.
+          </p>
 
-        <h2>I also like:</h2>
+          <h2>Technical skills:</h2>
 
-        <p>
-          Climbing, computer music, and cats.
-        </p>
+          <p>
+            JavaScript, Ruby on Rails, React.js, React-Redux, HTML5, CSS, Sass, SQL, Adobe Creative Cloud
+          </p>
 
-        <h2>Find me:</h2>
+          <h2>I also like:</h2>
 
-        <IconContainer />
+          <p>
+            Climbing, computer music, and cats.
+          </p>
 
-        <h6>
-          Icons by <a href="https://www.flaticon.com/authors/swifticons" title="Swifticons">Swifticons</a>.
-        </h6>
-      </div>
+          <h2>Find me:</h2>
+
+          <IconContainer />
+
+          <h6>
+            Icons by <a href="https://www.flaticon.com/authors/swifticons" title="Swifticons">Swifticons</a>.
+          </h6>
+        </div>
+      </>
     );
   }
 }

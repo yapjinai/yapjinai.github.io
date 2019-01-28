@@ -21,6 +21,7 @@ class Home extends Component {
             src={bg}
             alt='bg'
           />
+          <span id='enter'>Enter</span>
           {this.renderLinks()}
         </div>
         <div className="Home-mobile">

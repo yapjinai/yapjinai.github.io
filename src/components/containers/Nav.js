@@ -7,6 +7,8 @@ class Nav extends Component {
   render() {
     return (
       <div className="Nav">
+
+
         <NavLink
           to={`/`}
           exact
@@ -17,6 +19,7 @@ class Nav extends Component {
         >
           Home
         </NavLink>
+
         {this.renderNavLinks()}
       </div>
     );
@@ -26,7 +29,7 @@ class Nav extends Component {
 
   renderNavLinks = () => {
     const pages = [
-      'About',
+      // 'About',
       'Web',
       'Visual',
       'Music',
@@ -56,4 +59,14 @@ export default Nav;
 
 
 
-// {pages.map(this.renderNavlink)}
+
+  // <NavLink
+  //   to={`/`}
+  //   exact
+  //
+  //   className="NavLink"
+  //   activeClassName="ActiveNavLink"
+  //   id='home'
+  // >
+  //   Home
+  // </NavLink>

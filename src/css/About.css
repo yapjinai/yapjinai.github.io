@@ -1,3 +1,15 @@
+#splash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: -5;
+}
+
+.About {
+  background: rgba(250, 218, 234, 0.9);
+}
 .About .icon-container {
   display: flex;
   justify-content: center;
