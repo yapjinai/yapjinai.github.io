@@ -26,6 +26,9 @@ $content-height: 0.625 * $content-width;
           opacity: 0.5;
         }
       }
+      h5 {
+        text-align: right;
+      }
 
       .demo {
         width: $content-width;
