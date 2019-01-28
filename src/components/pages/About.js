@@ -13,7 +13,6 @@ import '../../css/About.css';
 const IconContainer = () => {
   return (
     <div className='icon-container'>
-      <a href='mailto:jinai.jyap@gmail.com'><img src={mail} alt='mail' className='icon' /></a>
       <a href='https://github.com/yapjinai'><img src={github} alt='github' className='icon' /></a>
       <a href='https://www.linkedin.com/in/yapjinai'><img src={linkedin} alt='linkedin'  className='icon' /></a>
       <a href='https://medium.com/@yapjinai'><img src={medium} alt='medium'  className='icon' /></a>
@@ -54,6 +53,11 @@ class About extends Component {
 
           <h2>Find me:</h2>
 
+          <p><a href='mailto:jinai.jyap@gmail.com' title='email'>Email</a> (jinai.jyap@gmail.com)
+          </p>
+
+          <p><a href='http://learn.co/yapjinai/résumé' title='résumé'>Résumé</a></p>
+
           <IconContainer />
 
           <h6>
@@ -66,3 +70,4 @@ class About extends Component {
 }
 
 export default About;
+// <a href='mailto:jinai.jyap@gmail.com'><img src={mail} alt='mail' className='icon' /></a>
