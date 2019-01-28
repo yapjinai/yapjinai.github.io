@@ -20,41 +20,43 @@ class Web extends Component {
   ///////////////////
 
   renderWebProjects = () => {
+    const githubUrl = 'https://github.com/yapjinai';
+    const s3WebUrl = 'https://s3.amazonaws.com/yapjinai/web';
     const projects = [
       {
         name: 'djin',
         link: 'http://djin.herokuapp.com',
-        frontend: 'https://github.com/yapjinai/djin-frontend',
-        backend: 'https://github.com/yapjinai/djin-backend',
-        demo: '',
-        screenshot: 'https://s3.amazonaws.com/yapjinai/web/djin-screenshot.png',
+        frontend: `${githubUrl}/djin-frontend`,
+        backend: `${githubUrl}/djin-backend`,
+        demo: `${s3WebUrl}/djin-demo.mov`,
+        screenshot: `${s3WebUrl}/djin-screenshot.png`,
         description: 'A React/Rails app for mixing beats and songs on the fly'
       },
       {
         name: 'shrinelords',
         link: 'https://shrinelords.herokuapp.com',
-        frontend: 'https://github.com/yapjinai/shrinelords-frontend',
-        backend: 'https://github.com/yapjinai/shrinelords-backend',
-        demo: 'https://s3.amazonaws.com/yapjinai/web/shrinelords-demo.mov',
+        frontend: `${githubUrl}/shrinelords-frontend`,
+        backend: `${githubUrl}/shrinelords-backend`,
+        demo: `${s3WebUrl}/shrinelords-demo.mov`,
         screenshot: '',
         description: 'The spiritual and digital merge in this technopagan haven: build and meditate in virtual shrines set in simulated nature.'
       },
       {
         name: 'forevernote',
         link: 'http://windows-xp.herokuapp.com',
-        frontend: 'https://github.com/yapjinai/windows-xp',
-        backend: 'https://github.com/yapjinai/windows-xp-api',
-        demo: 'https://s3.amazonaws.com/yapjinai/web/forevernote-demo.mov',
+        frontend: `${githubUrl}/windows-xp`,
+        backend: `${githubUrl}/windows-xp-api`,
+        demo: `${s3WebUrl}/forevernote-demo.mov`,
         screenshot: '',
         description: 'Publicly share text documents on a Windows XP-style Notepad clone built in Rails and React'
       }
-    ]
+    ];
 
     return (
       projects.map(p => {
         return <WebProject project={p} key={p.name} />
       })
-    )
+    );
   }
 }
 
