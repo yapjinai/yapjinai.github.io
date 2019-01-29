@@ -27,6 +27,11 @@ class App extends Component {
                 <Route exact path="/web" component={Web} />
                 <Route exact path="/music" component={Music} />
                 <Route exact path="/visual" component={Visual} />
+
+                <Route exact path='/djin' component={() => { window.location = 'https://yapjinai.github.io/djin'; return null;} }/>
+                <Route exact path='/shrinelords' component={() => { window.location = 'https://shrinelords.herokuapp.com'; return null;} }/>
+                <Route exact path='/forevernote' component={() => { window.location = 'https://windows-xp.herokuapp.com'; return null;} }/>
+
                 <Route component={ErrorPage} />
               </Switch>
             </div>
