@@ -35,7 +35,7 @@ class Web extends Component {
       {
         name: 'shrinelords',
         link: 'https://shrinelords.herokuapp.com',
-        frontend: `${githubUrl}/shrinelords-frontend`,
+        frontend: `${githubUrl}/shrinelords-frontend/tree/mod-6`,
         backend: `${githubUrl}/shrinelords-backend`,
         demo: `${s3WebUrl}/shrinelords-demo.mov`,
         screenshot: '',
