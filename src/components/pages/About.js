@@ -32,7 +32,7 @@ class About extends Component {
           <h1>Jin Ai Yap</h1>
 
           <p>
-            My name is Jin Ai. I graduated from Yale with a degree in Art and I am a full stack web developer with experience in Ruby on Rails, React.js, and React-Redux.
+            My name is Jin Ai. I am a full stack web developer with experience in Ruby on Rails, React.js, and React-Redux, and I graduated from Yale with a degree in Art.
           </p>
 
           <p>
