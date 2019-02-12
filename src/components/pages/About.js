@@ -42,7 +42,7 @@ class About extends Component {
           <h2>Technical skills:</h2>
 
           <p>
-            JavaScript, Ruby on Rails, React.js, React-Redux, HTML5, CSS, Sass, SQL, Adobe Creative Cloud
+            JavaScript, Ruby on Rails, Python, React.js, React-Redux, HTML5, CSS, Sass, SQL, Adobe Creative Cloud
           </p>
 
           <h2>I also like:</h2>
