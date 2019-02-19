@@ -48,7 +48,7 @@ class Web extends Component {
         backend: `${githubUrl}/windows-xp-api`,
         demo: `${s3WebUrl}/forevernote-demo.mov`,
         screenshot: '',
-        description: 'Publicly share text documents on a Windows XP-style Notepad clone built in Rails and React'
+        description: 'Publicly share text documents on a Windows XP-style Notepad clone built in Rails and JavaScript'
       }
     ];
 
