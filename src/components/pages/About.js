@@ -6,8 +6,6 @@ import linkedin from '../../img/about/linkedin.png';
 import soundcloud from '../../img/about/soundcloud.png';
 import medium from '../../img/about/medium.png';
 
-import splash from '../../img/home/splash.png';
-
 import '../../css/About.css';
 
 const IconContainer = () => {
@@ -27,7 +25,6 @@ class About extends Component {
       <>
 
         <div className="page About">
-        <img src={splash} alt='splash' id='splash' />
 
           <h1>Jin Ai Yap</h1>
 
