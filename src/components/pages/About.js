@@ -6,6 +6,7 @@ import soundcloud from '../../img/about/soundcloud.png';
 import medium from '../../img/about/medium.png';
 
 import '../../css/About.css';
+import splash from '../../img/home/splash.png';
 
 const IconContainer = () => {
   return (
@@ -24,6 +25,7 @@ class About extends Component {
       <>
         <div className="page About">
           <h1>Jin Ai Yap</h1>
+          <img src={splash} alt='splash' id='splash' />
           <p>
             My name is Jin Ai. I am a software engineer working in React.js, Redux-Saga, Django, and Ruby on Rails. I graduated from Yale with a degree in Art.
           </p>

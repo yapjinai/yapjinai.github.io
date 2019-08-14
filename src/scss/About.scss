@@ -5,13 +5,8 @@ $icon-width-mobile: 40px;
 $icon-margin-mobile: 5px;
 
 #splash {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100vw;
-  min-height: 100vh;
-  z-index: -5;
-  overflow: hidden;
+  max-width: 100%;
+  padding: 1em 0;
 }
 
 .About {
