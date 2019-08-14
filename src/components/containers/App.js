@@ -12,7 +12,6 @@ import Music from '../pages/Music';
 import Visual from '../pages/Visual';
 import ErrorPage from '../pages/ErrorPage';
 
-
 class App extends Component {
   render() {
     return (
@@ -41,34 +40,5 @@ class App extends Component {
     );
   }
 }
-//
-// class App extends Component {
-//   render() {
-//     return (
-//       <Router basename={process.env.PUBLIC_URL}>
-//         <ScrollToTop>
-//           <Switch>
-//
-//             <Route exact path="/" component={Home} />
-//
-//             <div className='App'>
-//               <Route path="/" component={Nav} />
-//               <Switch>
-//                 <Route exact path="/about" component={About} />
-//                 <Route exact path="/web" component={Web} />
-//                 <Route exact path="/music" component={Music} />
-//                 <Route exact path="/visual" component={Visual} />
-//                 <Route component={ErrorPage} />
-//               </Switch>
-//             </div>
-//
-//           </Switch>
-//         </ScrollToTop>
-//       </Router>
-//     );
-//   }
-// }
-
-
 
 export default App;

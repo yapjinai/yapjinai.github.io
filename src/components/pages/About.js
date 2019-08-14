@@ -40,10 +40,8 @@ class About extends Component {
           <p>
             Climbing, computer music, and cats.
           </p>
-          <h2>Find me:</h2>
-          <p><a href='mailto:jinai.jyap@gmail.com' title='email'>Email</a> (jinai.jyap@gmail.com)
-          </p>
-          <p><a href='http://learn.co/yapjinai/resume' title='résumé'>Résumé</a></p>
+          <h2>Contact:</h2>
+          <p><a href='mailto:jinai.jyap@gmail.com' title='email'>Email</a> (jinai.jyap@gmail.com)</p>
           <IconContainer />
           <h6>
             Icons by <a href="https://www.flaticon.com/authors/swifticons" title="Swifticons">Swifticons</a>.
