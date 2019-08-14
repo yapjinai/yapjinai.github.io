@@ -17,7 +17,7 @@ class Nav extends Component {
           activeClassName="ActiveNavLink"
           id='home'
         >
-          Home
+          About
         </NavLink>
 
         {this.renderNavLinks()}
@@ -29,10 +29,8 @@ class Nav extends Component {
 
   renderNavLinks = () => {
     const pages = [
-      // 'About',
       'Web',
       'Visual',
-      'Music',
     ]
     return pages.map(page => {
       return (

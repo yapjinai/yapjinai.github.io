@@ -25,7 +25,6 @@ class App extends Component {
               <Switch>
                 <Route exact path="/" component={About} />
                 <Route exact path="/web" component={Web} />
-                <Route exact path="/music" component={Music} />
                 <Route exact path="/visual" component={Visual} />
 
                 <Route exact path='/djin' component={() => { window.location = 'https://yapjinai.github.io/djin'; return null;} }/>
