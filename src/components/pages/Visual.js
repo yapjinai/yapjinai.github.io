@@ -9,7 +9,6 @@ const projects = [
     id: 'robot',
     title: 'Robot Cafe',
     icon: `${photographyUrl}/robot/icon.jpg`,
-    // bg: `${photographyUrl}/robot/bg.png`,
     photos: [
       `${photographyUrl}/robot/1a.jpg`,
       `${photographyUrl}/robot/1b.jpg`,
@@ -28,7 +27,6 @@ const projects = [
     id: 'agoraphobia',
     title: 'Agoraphobia (film stills)',
     icon: `${photographyUrl}/agoraphobia/icon.png`,
-    // bg: `${photographyUrl}/agoraphobia/bg.png`,
     photos: [
       `${photographyUrl}/agoraphobia/1.png`,
       `${photographyUrl}/agoraphobia/2.png`,
@@ -41,13 +39,25 @@ const projects = [
     id: 'barb',
     title: 'Barb',
     icon: `${photographyUrl}/barb/icon.jpg`,
-    // bg: `${photographyUrl}/barb/bg.jpg`,
     photos: [
       `${photographyUrl}/barb/fridge.jpg`,
       `${photographyUrl}/barb/pinata.jpg`
     ],
   }
 ]
+
+
+const MenuItem = ({project}) => {
+  return (
+    <a
+      className={`MenuItem ${project.id}`}
+      href={`#${project.id}`}
+    >
+      {project.title}
+    </a>
+  )
+}
+
 
 class Visual extends Component {
   render() {
@@ -67,8 +77,6 @@ class Visual extends Component {
     );
   }
 
-  /////////////////
-
   renderMenu = () => {
     return (
       projects.map(p => {
@@ -87,20 +95,3 @@ class Visual extends Component {
 }
 
 export default Visual;
-
-/////////////////
-
-const MenuItem = ({project}) => {
-  return (
-    <a
-      className={`MenuItem ${project.id}`}
-      href={`#${project.id}`}
-    >
-      {project.title}
-    </a>
-  )
-}
-
-
-
-// <img className='icon' src={project.icon} alt={project.id} />
