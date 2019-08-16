@@ -12,9 +12,9 @@ const IconContainer = () => {
   return (
     <div className='icon-container'>
       <a href='https://github.com/yapjinai'><img src={github} alt='github' className='icon' /></a>
-      <a href='https://www.linkedin.com/in/yapjinai'><img src={linkedin} alt='linkedin'  className='icon' /></a>
-      <a href='https://medium.com/@yapjinai'><img src={medium} alt='medium'  className='icon' /></a>
-      <a href='https://soundcloud.com/jinai'><img src={soundcloud} alt='soundcloud'  className='icon' /></a>
+      <a href='https://www.linkedin.com/in/yapjinai'><img src={linkedin} alt='linkedin' className='icon' /></a>
+      <a href='https://medium.com/@yapjinai'><img src={medium} alt='medium' className='icon' /></a>
+      <a href='https://soundcloud.com/jinai'><img src={soundcloud} alt='soundcloud' className='icon' /></a>
     </div>
   )
 }

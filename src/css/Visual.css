@@ -59,19 +59,19 @@
 .Visual .PhotoSets .PhotoSet p a {
   text-decoration: none;
 }
-.Visual .PhotoSets .PhotoSet .Photos {
+.Photos {
   display: flex;
   flex-direction: column;
 }
-.Visual .PhotoSets .PhotoSet .Photos .Photo {
+.Photo {
   margin: 0 auto;
   padding: 10vh 0;
 }
-.Visual .PhotoSets .PhotoSet .Photos .Photo img {
+.Photo img {
   max-width: 80vw;
   max-height: 80vh;
 }
-.Visual .PhotoSets .PhotoSet .Photos .Photo.row {
+.Photo.row {
   width: 80vw;
   display: flex;
   justify-content: space-evenly;
@@ -97,12 +97,12 @@
     height: 30vh;
     background-position: center;
   }
-  .Visual .PhotoSets .PhotoSet .Photos .Photo.row {
+  .Photo.row {
     display: inline;
     padding: 0;
     text-align: center;
   }
-  .Visual .PhotoSets .PhotoSet .Photos .Photo.row img {
+  .Photo.row img {
     padding: 10vh 0;
     height: auto;
   }
