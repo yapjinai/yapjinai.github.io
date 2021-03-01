@@ -13,9 +13,15 @@
   color: white;
   font-size: xx-large;
 }
+.Nav .NavLink.external {
+  background: pink;
+}
 .Nav .NavLink:hover {
   background: pink;
   color: white;
+}
+.Nav .NavLink.external:hover {
+  background: #2a4afa;
 }
 .Nav .NavLink#home {
   text-align: left;

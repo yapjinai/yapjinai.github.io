@@ -5,10 +5,9 @@
 }
 .Web .WebProjects .WebProject {
   width: 100%;
-  margin: 5%;
 }
 .Web .WebProjects .WebProject h2 {
-  display: inline;
+  margin-bottom: 10px;
 }
 .Web .WebProjects .WebProject h2 .link {
   position: relative;
