@@ -5,13 +5,11 @@ $blue: #2a4afa;
   z-index: 2;
 
   top: 12px;
-  // right: 0;
   width: 100%;
 
   text-align: right;
 
   .NavLink {
-    // width: 100px;
     padding: 12px;
     margin: 0 6px 6px;
     background: $blue;
@@ -25,7 +23,7 @@ $blue: #2a4afa;
     }
 
     &#home {
-      text-align: left; // MAKE THIS SEPARATE - USE FLEX?
+      text-align: left;
     }
   }
   .ActiveNavLink {
@@ -34,7 +32,6 @@ $blue: #2a4afa;
   }
 }
 
-/*RESPONSIVE*/
 @media only screen and (max-width: 768px) {
 
   .Nav {
@@ -49,7 +46,7 @@ $blue: #2a4afa;
       &:hover {
       }
 
-      &#home { // MAKE THIS SEPARATE - USE FLEX?
+      &#home {
       }
     }
     .ActiveNavLink {

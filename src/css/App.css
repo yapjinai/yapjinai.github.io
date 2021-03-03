@@ -23,13 +23,15 @@ body {
 .App h1 {
   text-align: center;
 }
+.App h2 {
+  text-align: center;
+}
 .App div.page {
   padding: 5vw;
   width: 60vw;
   margin: 0 auto 10vh;
 }
 
-/*RESPONSIVE*/
 @media only screen and (max-width: 768px) {
   .App {
     font-size: large;
@@ -39,4 +41,7 @@ body {
   }
 }
 
-/*# sourceMappingURL=App.css.map */
+.Other {
+  width: 50%;
+  margin: auto;
+}

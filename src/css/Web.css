@@ -27,12 +27,9 @@
   background: rgba(0, 0, 0, 0.2);
 }
 
-/*RESPONSIVE*/
 @media only screen and (max-width: 768px) {
   .Web .WebProjects .WebProject h2 .link {
     top: 6px;
     width: 20px;
   }
 }
-
-/*# sourceMappingURL=Web.css.map */
