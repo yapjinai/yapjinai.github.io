@@ -18,10 +18,22 @@ body {
 }
 .App a:hover {
   opacity: 0.5;
-  color: rgba(42, 74, 250, 0.5);
+}
+.App a:active {
+  color: white;
 }
 .App h1 {
   text-align: center;
+}
+.App h1 a {
+  text-decoration: none;
+}
+.App h1 a:hover {
+  opacity: initial;
+  color: blue;
+}
+.App h1 a:active {
+  color: hotpink;
 }
 .App h2 {
   text-align: center;
