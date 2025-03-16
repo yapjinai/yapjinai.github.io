@@ -29,7 +29,6 @@ class Nav extends Component {
 
   renderNavLinks = () => {
     const pages = [
-      'Web',
       'Visual',
     ]
     return pages.map(page => {
